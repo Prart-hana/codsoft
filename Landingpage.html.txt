@@ -1,0 +1,149 @@
+LEVEL-1: LANDING PAGE(TASK -1):
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Commerce Website</title>
+    <style>
+        body {
+            background-image: url('C:\Users\User\Pictures\Screenshots\logo-png.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-weight: bold;
+
+        }
+        
+        header {
+            background-image: linear-gradient(pink, navy);
+        }
+        
+        .logo {
+            text-align: left;
+            font-weight: bolder;
+            text-decoration: none;
+
+        }
+        
+        .nav {
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .nav a {
+            color: #f2f2f2;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .login {
+            background-color: rgb(145, 33, 49);
+            color: #fff;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            float: right;
+        }
+
+        .signup {
+            background-color: rgb(58, 75, 208);
+            color: #fff;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            float: right;
+        }
+
+        .login:hover {
+            background-color: white;
+            color: rgb(145, 33, 49);
+        }
+
+        .signup:hover {
+            background-color: white;
+            color: rgb(58, 75, 208);
+        }
+        .active{
+            background-color: #63bbb7;
+            
+        }
+        .logo{
+            text-decoration: none;
+            position: relative;
+            text-shadow: #f2f2f2;
+            animation: forwards;
+            animation-duration: 3s;
+        }
+
+    </style>
+</head>
+<body style="background-color:rgb(150, 198, 207);">
+    <header>
+        <div class="logo"><a href="#">Landing Page</a></div> 
+        <nav>
+        <div class="nav">
+           
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about.txt" >About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <button class="login">Log-In</button>
+                    <button class="signup">Sign-Up</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+       <p>
+  
+        <strong>This landing page is used to display the content in a single HTML page </strong>
+        <p>
+            <strong> Services</strong>
+            <hr>
+        1. Content management systems
+        Interaction with your website does not always start from the main page. If you have a relevant blog, your customers can find the articles, lists, and reviews. But creating valuable content needs organization and planning. Content management services help optimize it.
+        WordPress is using the popular technologies of building the website. Though it needs some technical knowledge for competent use, the benefits are apparent:
+        your blog can be easily adapted to your company’s changing needs,
+        bright blog appearance without coding,
+        the extended functions with plugins,
+        the support of the wordpress community.
+        Designed initially for blogging support, now the service helps run large corporations’ sites and empowers more than a quarter of business websites as of now. WordPress enables post navigation, calculating the time for reading the post (min read), attracts new readers, and raises the site’s attendance.<br>
+        2. Online ordering services
+        The need for an online ordering system has extremely increased with lockdown challenges. The systems have become many restaurants’ factor of survival during the pandemic. When everyday life becomes “usual” again, online ordering is going to remain an essential part of the business processes.
+        The ordering systems include web and mobile services. Some restaurants have their websites; some of them have mobile applications. But the combination of both types of software boosts the system’s efficacy, saves time and streamlines the ordering operations.
+        The systems have much in common with CRMs, as they help manage ordering and delivery processes. Mobile apps for the employees can be connected with the website’s ordering page and send notifications to the staff when the order is received.
+        A vital advantage of online ordering services for the business is tracking all the cash flow in the restaurant and calculating revenue and expenses.
+
+        </p>
+
+       </p> 
+
+    </main>
+    <footer>
+
+        for <strong> terms&condition</strong> click here and get cookies
+        <p>for queries-<strong>ecomleather@gmail.com</strong>
+        contact-us:8764239876 </p>
+      
+    </footer>
+</body>
+</html>
+
+OUTPUT:
+ 
